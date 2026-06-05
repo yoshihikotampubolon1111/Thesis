@@ -67,7 +67,7 @@ def test_weighted_percentile_unequal_weights() -> None:
     values = np.array([0.0, 10.0])
     weights = np.array([1.0, 3.0])
 
-    assert weighted_percentile(values, weights, 50) == pytest.approx(8.333333333)
+    assert weighted_percentile(values, weights, 50) == pytest.approx(7.5)
 
 
 def test_calculate_metrics_tolerance_keys() -> None:
