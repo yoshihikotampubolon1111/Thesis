@@ -1,0 +1,16 @@
+python aim1_conformity.py ^
+  --case_id Patient01_L5sup ^
+  --cage data/Patient01/cage_inferior_contact.stl ^
+  --endplate data/Patient01/L5_superior_endplate_clean.stl ^
+  --output results/Patient01_L5sup ^
+  --samples 100000 ^
+  --tolerances 0.5 1.0
+
+# With an optional 4 x 4 cage-to-patient transform:
+python aim1_conformity.py ^
+  --case_id Patient01_L5sup ^
+  --cage data/Patient01/cage_inferior_contact.stl ^
+  --endplate data/Patient01/L5_superior_endplate_clean.stl ^
+  --transform data/Patient01/cage_to_patient_transform.txt ^
+  --output results/Patient01_L5sup ^
+  --samples 100000

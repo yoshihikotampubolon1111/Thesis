@@ -1,0 +1,2 @@
+case_id,cage_stl,endplate_stl,transform_file,group,level,endplate_side,cage_model
+Patient01_L5sup,data/Patient01/cage_inferior_contact.stl,data/Patient01/L5_superior_endplate_clean.stl,,example_group,L5,superior,example_cage_model
