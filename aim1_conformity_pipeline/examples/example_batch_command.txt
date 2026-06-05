@@ -1,0 +1,12 @@
+python batch_run.py ^
+  --cases batch_cases.csv ^
+  --output results ^
+  --samples 100000 ^
+  --tolerances 0.5 1.0
+
+# Optional approximate peripheral rim overlap:
+python batch_run.py ^
+  --cases batch_cases.csv ^
+  --output results ^
+  --samples 100000 ^
+  --rim_width_mm 4.0
